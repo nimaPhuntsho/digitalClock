@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="body" class="container">
+      <div class="clock">
+        <div class="clock-childs">
+          <div class="center">
+            <p id="hour"></p>
+          </div>
+          <div class="center">
+            <p>:</p>
+          </div>
+          <div class="center">
+            <p id="min"></p>
+          </div>
+          <div class="center">
+            <p>:</p>
+          </div>
+          <div class="center">
+            <p id="sec"></p>
+          </div>
+          <div class="center">
+            <p class="am-pm" id="am-pm"></p>
+          </div>
+        </div>
+        <div class="day">
+          <li id="day"></li>
+          <li id="date"></li>
+          <li id="month"></li>
+          <li id="year"></li>
+        </div>
+      </div>
+    </div>
+    <div class="format">
+      <button id="12-hour">12 hour</button>
+      <button id="24-hour">24 hour</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
